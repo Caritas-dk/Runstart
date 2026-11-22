@@ -16,7 +16,8 @@
         "ITSAppUsesNonExemptEncryption": false,
         "CFBundleAllowMixedLocalizations": true,
         "NSLocationWhenInUseUsageDescription": "Used only for outdoor runs to measure distance, pace and speed. GPS is never used on the treadmill."
-      }
+      },
+      "appleTeamId": "VF9US8746B"
     },
     "android": {
       "package": "dk.caritas.runstart",
