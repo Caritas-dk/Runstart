@@ -23,7 +23,7 @@ import { C } from '../ui/theme';
 import { SplashOverlay } from '../ui/SplashOverlay';
 
 SystemUI.setBackgroundColorAsync(C.navy).catch(() => {});
-// Keep the native "RUNSTART 0-GOAL" splash until the in-app splash (identical) is on screen.
+// Keep the native "METTE EDITION" splash until the in-app splash (identical) is on screen.
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
 type Interrupted = NonNullable<Awaited<ReturnType<typeof getInterrupted>>>;

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Runstart",
-    "slug": "runstart",
+    "name": "Runstart Mette",
+    "slug": "runstart-mette",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "runstart",
+    "scheme": "runstartmette",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0B1F3A",
     "ios": {
@@ -20,7 +20,7 @@
       "appleTeamId": "VF9US8746B"
     },
     "android": {
-      "package": "dk.caritas.runstart",
+      "package": "dk.caritas.runstart.mette",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#0B1F3A",
