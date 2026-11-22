@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Animated, StyleSheet, Text } from 'react-native';
+import { Animated, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { RunnerMark } from './RunnerMark';
+import { TeamLogo } from './TeamLogo';
 import { C, F } from './theme';
 
 /**
@@ -8,9 +10,10 @@ import { C, F } from './theme';
  * splash image, so the hand-over is invisible; it stays briefly so the
  * name can be read, then fades into the app.
  */
-export function SplashOverlay({ onShown, holdMs = 1300 }: { onShown?: () => void; holdMs?: number }) {
+export function SplashOverlay({ onShown, holdMs = 1800 }: { onShown?: () => void; holdMs?: number }) {
   const [opacity] = useState(() => new Animated.Value(1));
   const [gone, setGone] = useState(false);
+  const ins = useSafeAreaInsets();
   useEffect(() => {
     onShown?.();
     const t = setTimeout(() => {
@@ -24,6 +27,7 @@ export function SplashOverlay({ onShown, holdMs = 1300 }: { onShown?: () => void
       <RunnerMark size={176} />
       <Text style={s.title}>RUNSTART</Text>
       <Text style={s.sub}>0-GOAL</Text>
+      <View style={[s.bottom, { bottom: Math.max(ins.bottom, 16) + 28 }]}><TeamLogo /></View>
     </Animated.View>
   );
 }
@@ -31,5 +35,6 @@ export function SplashOverlay({ onShown, holdMs = 1300 }: { onShown?: () => void
 const s = StyleSheet.create({
   wrap: { backgroundColor: C.navy, alignItems: 'center', justifyContent: 'center', zIndex: 100 },
   title: { fontFamily: F.display, color: C.white, fontSize: 60, lineHeight: 62, letterSpacing: 1.5, marginTop: -4 },
+  bottom: { position: 'absolute', left: 0, right: 0, alignItems: 'center' },
   sub: { fontFamily: F.display, color: C.lime, fontSize: 38, lineHeight: 40, letterSpacing: 3 },
 });

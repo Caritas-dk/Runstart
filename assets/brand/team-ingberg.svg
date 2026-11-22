@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 56">
+  <!-- Team Ingberg: spark with speed lines + forward-leaning name -->
+  <g transform="translate(2,4)">
+    <g stroke="#B6F23A" stroke-width="3.2" stroke-linecap="round"><path d="M3 20 H11"/><path d="M1 27 H9"/><path d="M5 34 H12"/></g>
+    <path d="M30 4 L33.5 17 L46 13 L37 23 L47 31 L34 30 L31 44 L26 32 L14 37 L21 26 L12 18 L25 19 Z" fill="#B6F23A"/>
+    <circle cx="30" cy="24" r="4" fill="#0B1F3A"/>
+  </g>
+  <g transform="translate(50,0) skewX(-12)" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="800">
+    <text x="12" y="19" font-size="13" letter-spacing="5" fill="#FFFFFF" fill-opacity="0.85">TEAM</text>
+    <text x="10" y="48" font-size="34" letter-spacing="1" fill="#B6F23A">INGBERG</text>
+  </g>
+</svg>
