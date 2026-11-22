@@ -1,0 +1,6 @@
+{
+  "ios": {
+    "NSLocationWhenInUseUsageDescription": "Wird nur bei Läufen draußen genutzt, um Distanz, Pace und Tempo zu messen. Auf dem Laufband wird GPS nie genutzt.",
+    "CFBundleDisplayName": "Runstart"
+  }
+}

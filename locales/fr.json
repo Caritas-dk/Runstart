@@ -1,0 +1,6 @@
+{
+  "ios": {
+    "NSLocationWhenInUseUsageDescription": "Utilisée uniquement pour les courses en extérieur afin de mesurer distance, allure et vitesse. Jamais utilisée sur tapis.",
+    "CFBundleDisplayName": "Runstart"
+  }
+}

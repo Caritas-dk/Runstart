@@ -1,0 +1,6 @@
+{
+  "ios": {
+    "NSLocationWhenInUseUsageDescription": "Solo se usa al correr al aire libre para medir distancia, ritmo y velocidad. Nunca se usa en la cinta.",
+    "CFBundleDisplayName": "Runstart"
+  }
+}

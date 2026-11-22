@@ -1,0 +1,6 @@
+{
+  "ios": {
+    "NSLocationWhenInUseUsageDescription": "Used only for outdoor runs to measure distance, pace and speed. GPS is never used on the treadmill.",
+    "CFBundleDisplayName": "Runstart"
+  }
+}

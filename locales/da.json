@@ -1,0 +1,6 @@
+{
+  "ios": {
+    "NSLocationWhenInUseUsageDescription": "Bruges kun ved udendørs løb til at måle distance, tempo og hastighed. Ved løbebånd bruges GPS ikke.",
+    "CFBundleDisplayName": "Runstart"
+  }
+}
