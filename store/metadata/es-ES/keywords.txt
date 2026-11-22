@@ -1,0 +1,1 @@
+plan correr,principiante,5 km,10 km,intervalos,media maratón,running,trotar,resistencia
